@@ -1,27 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>com.m2fox</groupId>
   <artifactId>flink-learn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <properties>
+    <flink.version>1.9.2</flink.version>
+    <scala.binary.version>2.11</scala.binary.version>
+  </properties>
+  
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-core -->
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-core</artifactId>
-      <version>1.9.0</version>
+      <version>${flink.version}</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-java -->
     <dependency>
       <groupId>org.apache.flink</groupId>
       <artifactId>flink-streaming-java_2.12</artifactId>
-      <version>1.9.0</version>
+      <version>${flink.version}</version>
       <scope>provided</scope>
-    </dependency>    
+    </dependency>
+
+    <!--flink java-->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-java</artifactId>
+      <version>${flink.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-streaming-java_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <!--日志-->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.7</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+      <scope>runtime</scope>
+    </dependency>
+    <!--flink kafka connector-->
+    <dependency>
+      <groupId>org.apache.flink</groupId>
+      <artifactId>flink-connector-kafka-0.11_${scala.binary.version}</artifactId>
+      <version>${flink.version}</version>
+    </dependency>
+    <!--alibaba fastjson-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>fastjson</artifactId>
+      <version>1.2.51</version>
+    </dependency>
+
+    <!--lombok 注解-->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.10</version>
+    </dependency>
   </dependencies>
 </project>

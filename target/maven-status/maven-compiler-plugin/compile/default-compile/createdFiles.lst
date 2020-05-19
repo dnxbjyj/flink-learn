@@ -1,2 +1,5 @@
 com/m2fox/wordcount/SocketTextStreamWordCount$LineSplitter.class
+com/m2fox/utils/KafkaUtils.class
 com/m2fox/wordcount/SocketTextStreamWordCount.class
+com/m2fox/model/Metric.class
+com/m2fox/flink/Main.class
