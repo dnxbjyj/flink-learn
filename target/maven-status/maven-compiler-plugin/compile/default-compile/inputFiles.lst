@@ -1,4 +1,8 @@
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/model/Metric.java
+/Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/join/BatchJoinDemo.java
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/utils/KafkaUtils.java
+/Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/distinct/BatchDistinctDemo.java
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/flink/Main.java
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/wordcount/SocketTextStreamWordCount.java
+/Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/union/BatchUnionDemo.java
+/Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/topn/BatchTopnDemo.java

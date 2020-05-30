@@ -1,5 +1,11 @@
 com/m2fox/wordcount/SocketTextStreamWordCount$LineSplitter.class
-com/m2fox/utils/KafkaUtils.class
+com/m2fox/dataset/distinct/BatchDistinctDemo$1.class
 com/m2fox/wordcount/SocketTextStreamWordCount.class
-com/m2fox/model/Metric.class
 com/m2fox/flink/Main.class
+com/m2fox/dataset/join/BatchJoinDemo.class
+com/m2fox/utils/KafkaUtils.class
+com/m2fox/dataset/topn/BatchTopnDemo.class
+com/m2fox/dataset/join/BatchJoinDemo$1.class
+com/m2fox/dataset/distinct/BatchDistinctDemo.class
+com/m2fox/model/Metric.class
+com/m2fox/dataset/union/BatchUnionDemo.class
