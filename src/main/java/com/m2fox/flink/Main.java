@@ -1,4 +1,5 @@
-// NC@java.lang.NoClassDefFoundError: org/apache/flink/streaming/api/functions/source/SourceFunction
+// AC
+// 测试kafka作为数据源
 package com.m2fox.flink;
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
@@ -20,7 +21,7 @@ public class Main {
         props.put("group.id", "metric-group");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        props.put("auto.offset.reset", "lastest");
+        props.put("auto.offset.reset", "latest");
 
         // - 添加数据源
         DataStreamSource<String> source = env.addSource(

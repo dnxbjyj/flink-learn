@@ -1,3 +1,4 @@
+com/m2fox/dataset/aggr/BatchAggrDemo.class
 com/m2fox/wordcount/SocketTextStreamWordCount$LineSplitter.class
 com/m2fox/dataset/distinct/BatchDistinctDemo$1.class
 com/m2fox/wordcount/SocketTextStreamWordCount.class

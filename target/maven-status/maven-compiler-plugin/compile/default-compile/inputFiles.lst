@@ -6,3 +6,4 @@
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/wordcount/SocketTextStreamWordCount.java
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/union/BatchUnionDemo.java
 /Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/topn/BatchTopnDemo.java
+/Users/m2fox/hack/github/flink-learn/src/main/java/com/m2fox/dataset/aggr/BatchAggrDemo.java
