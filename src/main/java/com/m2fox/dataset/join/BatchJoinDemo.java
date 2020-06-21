@@ -35,7 +35,9 @@ public class BatchJoinDemo {
 
         // - 打印两个数据集的原始数据
         System.out.println("原始数据：");
+        System.out.println("dataSet1：");
         dataSet1.print();
+        System.out.println("dataSet2：");
         dataSet2.print();
         
         // - 进行join操作

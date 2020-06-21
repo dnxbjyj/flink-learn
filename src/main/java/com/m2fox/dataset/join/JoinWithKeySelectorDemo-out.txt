@@ -1,0 +1,14 @@
+原始数据：
+dataSet1：
+Record(values=[1001, John])
+Record(values=[1002, Tom])
+Record(values=[1003, Jane])
+dataSet2：
+Record(values=[1002, US])
+Record(values=[1001, China])
+Record(values=[1003, UK])
+Record(values=[1005, India])
+join后的数据joinDataSet：
+Record(values=[1002, Tom, US])
+Record(values=[1001, John, China])
+Record(values=[1003, Jane, UK])

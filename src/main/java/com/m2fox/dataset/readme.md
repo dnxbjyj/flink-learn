@@ -1,4 +1,8 @@
 # DataSet API
+- flink官方文档：
+  - [Flink DataSet API Programming Guide](https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/index.html)
+  - [DataSet Transformations](https://ci.apache.org/projects/flink/flink-docs-release-1.10/dev/batch/dataset_transformations.html)
+
 
 # 几种常见的操作
 ### flat map
