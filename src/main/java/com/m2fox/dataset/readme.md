@@ -12,6 +12,7 @@
 
 ### join
 - 操作语义：把两个数据集根据关联字段，合并成一个数据集，类似于SQL的join语句。
+- 基本操作链：joinedDataset = dataset1.join(dataset2).where(keyselector1).equalTo(keyselector2).with(joinfunction);
 
 ### distinct
 - 操作语义：去重。

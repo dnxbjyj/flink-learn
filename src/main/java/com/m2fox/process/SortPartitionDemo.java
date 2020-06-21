@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 // 测试sort partition
-public class KeySelectorDemo {
+public class SortPartitionDemo {
     public static void main(String[] argv) throws Exception{
         // - 创建运行时环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
@@ -31,20 +31,20 @@ public class KeySelectorDemo {
         DataSet<Wc> dataset = env.fromCollection(wcs);
 
         // - 不分组进行排序操作
-        DataSet<Wc> words = dataset.sortPartition(new KeySelector<Wc, String>() {
-            @Override
-            public String getKey(Wc wc) {
-                return wc.word;
-            }
-        }, Order.ASCENDING).sortPartition(new KeySelector<Wc, Integer>() {
-            @Override
-            public Integer getKey(Wc wc) {
-                return wc.count;
-            }
-        });
+        // DataSet<Wc> words = dataset.sortPartition(new KeySelector<Wc, String>() {
+        //     @Override
+        //     public String getKey(Wc wc) {
+        //         return wc.word;
+        //     }
+        // }, Order.ASCENDING).sortPartition(new KeySelector<Wc, Integer>() {
+        //     @Override
+        //     public Integer getKey(Wc wc) {
+        //         return wc.count;
+        //     }
+        // });
 
-        // - 打印
-        words.print();
+        // // - 打印
+        // words.print();
     }
 
     // word选择器，返回word字段的值
